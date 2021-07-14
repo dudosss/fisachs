@@ -1,0 +1,232 @@
+.fgc1 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 390px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    
+}
+
+.ikn {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.ikona {
+    margin-left: 500px;
+    width: 72px;
+    height: 72px;
+}
+
+.fgc {
+
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    padding-left: 430px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.glavnaia {
+
+    border-collapse: collapse;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.glavtxt {
+    font-size: 20px;
+    color: #00bfff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.glavtxt:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.glavtxt:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s;
+}
+.igri {
+
+    border-collapse: collapse;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.igrtxt {
+    font-size: 20px;
+    color: #00bfff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.igrtxt:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.igrtxt:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s;
+}
+.cva {
+    padding: 10px;
+    margin-right: 40px;
+    
+}
+
+.svazatxt {
+    font-size: 20px;
+    color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.svazatxt:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.svazatxt:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;
+}
+.podd {
+    padding: 10px;
+}
+
+.poddtxt {
+    font-size: 20px;
+    color: #00bfff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.poddtxt:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.poddtxt:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s;
+}
+.glavn {
+    border: 2px dashed tomato;
+    background-image: url(img/ава.png);
+    padding-bottom: 300px;
+    background-size: 100%;
+}
+
+.nazvan {
+    border: 2px dashed tomato;
+    color: bisque;
+    padding-left:  550px;
+    padding-top: 250px;
+    font-size: 27px;
+}
+
+.fisash {
+    border: 2px dashed tomato;
+}
+
+.geidev {
+    border: 2px dashed tomato;
+}
+
+.soon {
+    border: 2px dashed tomato;
+}
+
+.probel {
+    border: 2px dashed tomato;
+}
+
+.knopka {
+    border: 2px dashed tomato;
+}
+
+.footer {
+    border: 2px dashed tomato;
+}
+
+.tete {
+    border: 2px dashed tomato;
+}
+
+.data {
+    border: 2px dashed tomato;
+}
