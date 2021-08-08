@@ -1,4 +1,5 @@
 .fgc1 {
+    display: block;
     font-family: 'Roboto', sans-serif;
     margin-left: 390px;
     padding-bottom: 5px;
@@ -20,7 +21,7 @@
 }
 
 .fgc {
-
+    display: block;
     margin-left: 160px;
     margin-right: 160px;
     padding-bottom: 1px;
