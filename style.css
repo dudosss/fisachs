@@ -1,0 +1,236 @@
+.fgc1 {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+    font-size: 25px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    
+}
+
+.ikn {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.ikona {
+    display: block;
+    margin: 0 auto;
+    width: 72px;
+    height: 72px;
+}
+
+.fgc {
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.glavnaia {
+    
+    border-collapse: collapse;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.glavtxt {
+    font-size: 20px;
+    color: #00bfff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.glavtxt:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.glavtxt:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s;
+}
+.igri {
+
+    border-collapse: collapse;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+.igrtxt {
+    font-size: 20px;
+    color: #00bfff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.igrtxt:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.igrtxt:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s;
+}
+.cva {
+    padding: 10px;
+    margin-right: 40px;
+    
+}
+
+.svazatxt {
+    font-size: 20px;
+    color: #00bfff; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.svazatxt:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.svazatxt:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: red; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;
+}
+.podd {
+    padding: 10px;
+}
+
+.poddtxt {
+    font-size: 20px;
+    color: #00bfff;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.poddtxt:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.poddtxt:hover:after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: red;
+    transition: width 0.5s;
+}
+.glavn {
+    background-image: url(img/ава.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.nazvan {
+    color: bisque;
+    padding-top: 250px;
+    font-size: 27px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.geidev {
+
+    color: bisque;
+    padding-top: 0px;
+    font-size: 25px;
+    padding-bottom: 0PX;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.knopka {
+    display: flex;
+    justify-content: center;
+}
+
+.disknopka {
+    padding: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: #045570;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    margin-bottom: 200px;
+}
+.footer {
+    background-color: rgb(255, 255, 255);
+}
+
+.tete {
+    text-align: center;
+    margin: 0 auto;
+}
+
