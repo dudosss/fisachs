@@ -17,8 +17,8 @@
 .ikona {
     display: block;
     margin: 0 auto;
-    width: 72px;
-    height: 72px;
+    width: 292px;
+    height: 152px;
 }
 
 .fgc {
@@ -183,19 +183,34 @@
     background-color: red;
     transition: width 0.5s;
 }
+
+.body {
+    background-color: rgb(95, 95, 95);
+}
 .glavn {
-    background-image: url(img/ава.png);
+    background-color: rgb(173, 172, 172);
     background-size: 150%;
     background-repeat: no-repeat;
 }
 
+
+.donate {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
 .nazvan {
+    position: absolute;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    border: 4px double black;
     color: bisque;
-    padding-top: 250px;
+    padding-top: 50px;
     font-size: 27px;
     padding-bottom: 0px;
-    text-align: center;
-    margin: 0 auto;
+    margin: 20px;
     
 }
 
@@ -234,3 +249,6 @@
     margin: 0 auto;
 }
 
+.priveleg {
+    margin: 30px;
+}
